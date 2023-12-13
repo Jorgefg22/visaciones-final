@@ -8,6 +8,12 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { FormsComponent } from './pages/forms/forms.component';
 import { FormtwoComponent } from './pages/formtwo/formtwo.component';
 import { FormviewComponent } from './pages/formview/formview.component';
+import { InmuebleComponent } from './vs/inmueble/inmueble.component';
+import { VendedorspComponent } from './vs/vendedorsp/vendedorsp.component';
+import { CompradorbComponent } from './vs/compradorb/compradorb.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+
 
 @NgModule({
   declarations: [
@@ -16,11 +22,16 @@ import { FormviewComponent } from './pages/formview/formview.component';
     FooterComponent,
     FormsComponent,
     FormtwoComponent,
-    FormviewComponent
+    FormviewComponent,
+    InmuebleComponent,
+    VendedorspComponent,
+    CompradorbComponent,
+  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

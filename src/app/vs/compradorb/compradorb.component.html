@@ -1,0 +1,145 @@
+<div class="container mt-5 mb-5 d-flex justify-content-center">
+  <div class="card px-1 py-4">
+
+    <div class="container">
+      <div class="row">
+        <div class="col" style="text-align: center;">
+          <div>
+            <span (click)="redirecToPageinmueble()" class="dot">
+              <br>
+              <i class="fa-solid fa-house fa-2xl" style="color: aliceblue;"></i>
+            </span>
+            <div>
+              INMUEBLE
+            </div>
+          </div>
+
+        </div>
+        <div class="col" style="text-align: center;">
+          <div>
+            <span (click)="redirecToPageVendedor()" class="dot">
+              <br>
+              <i class="fa-solid fa-user fa-2xl" style="color: aliceblue;"></i>
+            </span>
+            <div>
+              DATOS VENDEDOR <br>
+              O SUJETO PASIVO
+            </div>
+          </div>
+
+        </div>
+        <div class="col next" style="text-align: center;">
+          <div style="background-color:  rgba(146, 142, 142, 0.3);">
+            <span (click)="redirecToPageComprador()" class="dot">
+              <br>
+              <i class="fa-regular fa-user fa-2xl" style="color: aliceblue;"></i>
+            </span>
+            <div>
+              DATOS COMPRADOR(ES)<br>
+              BENEFICIARIO
+            </div>
+          </div>
+        </div>
+        <div class="col" style="text-align: center;">
+          <div>
+            <span class="dot">
+              <br>
+              <i class="fa-solid fa-file-contract fa-2xl" style="color: aliceblue;"></i>
+            </span>
+            <div>
+
+              DATOS MINUTA
+            </div>
+          </div>
+
+        </div>
+        <div class="col" style="text-align: center;">
+          <div>
+            <span class="dot">
+              <br>
+              <i class="fa-solid fa-print fa-2xl" style="color: aliceblue;"></i>
+            </span>
+
+            <div>
+              VISTA PREVIA/IMPRIMIR
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="container" style="background-color: rgb(236, 233, 233); border-radius: 5px;">
+      <br>
+      <h3 style="color:#08477b;">Buscador Comprador / Beneficiario</h3>
+      <div class="row">
+        <div class="row">
+          <form class="d-flex">
+            <input class="border border-3 border-top-0 border-start-0 border-end-0" type="search"
+              placeholder="Padron Municipal Contribuyente" aria-label="Search" style=" outline: none;">
+            <button class="btn btn-primary" type="submit" style="background-color: rgb(130, 132, 134);"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+
+
+
+
+        <div class="col">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container" style="background-color: rgb(236, 233, 233); border-radius: 5px;">
+        <br>
+        <h3 style="color:#08477b;">Informacion Complementaria</h3>
+        <div class="row">
+          <div class="col">
+            <label for="" style="font-weight: bold;">Tipo de Documento: </label><label for=""> CEDULA DE
+              IDENTIDAD</label><br>
+            <label for="" style="font-weight: bold;">Estado Civil:</label><label for=""> CASADO</label><br>
+            <label for="" style="font-weight: bold;">Propietarios:</label><label for=""> 1</label><br>
+          </div>
+          <div class="col">
+            <label for="" style="font-weight: bold;">Documento de Indentidad: </label><label for=""> 3138520</label><br>
+            <label for="" style="font-weight: bold;">Fecha Nacimiento:</label><label for=""> 20/09/1987</label><br>
+          </div>
+
+          <div class="col">
+            <label for="" style="font-weight: bold;">Expedido en:</label><label for=""> COCHABAMBA</label><br>
+            <label for="" style="font-weight: bold;">Genero:</label><label for=""> MASCULINO</label><br>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>

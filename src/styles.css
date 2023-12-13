@@ -3,3 +3,5 @@ body{
    background: url(./assets/img-log/caballoscupula.jpg);
    background-size: cover;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

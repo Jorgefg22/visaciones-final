@@ -1,0 +1,163 @@
+<div class="container mt-5 mb-5 d-flex justify-content-center" >
+    <div class="card px-1 py-4">
+        
+        <div class="container">
+            <div class="row">
+              <div class="col" style="text-align: center;">
+                <div style="background-color:  rgba(146, 142, 142, 0.3);">
+                    <span  (click)="redirecToPageinmueble()" class="dot">
+                        <br>
+                        <i class="fa-solid fa-house fa-2xl" style="color: aliceblue;"></i>
+                    </span>
+                    <div>
+                        INMUEBLE
+                    </div>
+                </div>
+                
+              </div>
+              <div class="col" style="text-align: center;">
+                <div >
+                    <span  (click)="redirecToPageVendedor()" class="dot">
+                        <br>
+                        <i class="fa-solid fa-user fa-2xl"style="color: aliceblue;"></i>
+                    </span>
+                    <div>
+                       DATOS VENDEDOR <br>
+                       O SUJETO PASIVO
+                    </div>
+                </div>
+               
+              </div>
+              <div class="col next" style="text-align: center;">
+                <div >
+                    <span (click)="redirecToPageComprador()" class="dot">
+                        <br>
+                        <i  class="fa-regular fa-user fa-2xl"style="color: aliceblue;"></i>
+                    </span>
+                     <div>
+                       DATOS COMPRADOR(ES)<br>
+                       BENEFICIARIO
+                     </div>
+                </div>
+              </div>
+              <div class="col" style="text-align: center;">
+                <div>
+                    <span class="dot">
+                        <br>
+                        <i  class="fa-solid fa-file-contract fa-2xl"style="color: aliceblue;"></i>
+                    </span>
+                    <div>
+                       
+                      DATOS MINUTA
+                    </div>
+                </div>
+               
+              </div>
+              <div class="col" style="text-align: center;">
+                <div>
+                    <span class="dot">
+                        <br>
+                        <i class="fa-solid fa-print fa-2xl"style="color: aliceblue;"></i>
+                    </span>
+                    
+                    <div>
+                       VISTA PREVIA/IMPRIMIR
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+            
+        </div>
+
+       
+
+        <div class="container" style="background-color: rgb(236, 233, 233); border-radius: 5px;">
+            <br>
+            <h3 style="color:#08477b;">Datos Administrativos Legales</h3>
+            <div class="row">
+              <div class="col">
+                <div >
+                   <h4 style="color:#58595a;">DATOS CATASTRALES</h4>
+                    <div>
+                        <label style="font-weight: bold;">Cod. Cat: </label><label > 01-003-00004-000</label><br>
+                        <label style="font-weight: bold;">Matricula Comput: </label><label > 3.10.1.01.0010052</label><br>
+                        <label style="font-weight: bold;">Asiento: </label><label > A-4</label><br>
+                        <label style="font-weight: bold;">Colindantes: </label><label > 4</label><br>
+                        <div class="row">
+                            <div class="col">
+                                <label  style="font-weight: bold;">Orientacion</label><br>
+                                <label >ESTE</label><br>
+                                <label >NORTE</label><br>
+                                <label >SUD</label><br>
+                                <label >OESTE</label><br>
+
+                            </div>
+                            <div class="col">
+                                <label tyle="font-weight: bold;">Descripcion</label><br>
+                                <label >INNOMINADA</label><br>
+                                <label >INNOMINADA</label><br>
+                                <label >LOTE Nº 23</label><br>
+                                <label >LOTE Nº 4</label><br>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+              </div>
+              <div class="col">
+                <div>
+                   <h4 style="color:#58595a;">IMAGEN CATASTRAL</h4>
+
+                   <div>
+                    <div id="map"></div>
+                   </div>
+                </div>
+              </div>
+              
+            </div>
+            
+        </div>
+
+        <div class="container" style="background-color: rgb(236, 233, 233); border-radius: 5px;">
+            <br>
+            <h3 style="color:#08477b;">Datos Tecnicos Generales</h3>
+            <div class="row">
+              <div class="col">
+                <label style="font-weight: bold;">Sup. Terreno/Catastro m2: </label><label > 510.26</label><br>
+                <label style="font-weight: bold;">Construcciones:</label><label > 1</label><br>
+              </div>
+              <div class="col">
+                <label style="font-weight: bold;">Sup. Terreno/ruat m2: </label><label > 510.26</label><br>
+                <label style="font-weight: bold;">Construcciones Adicionales:</label><label > 1</label><br>
+              </div>
+
+              <div class="col">
+                <label style="font-weight: bold;">Zona Tributaria:</label><label > 5</label><br>
+              </div>
+            </div>       
+        </div>
+
+        <div class="container" style="background-color: rgb(236, 233, 233); border-radius: 5px;">
+
+          <div class="row">
+            <div class="col">
+              <label style="font-weight: bold;">Clase: </label><label > VIVIENDA UNIFAMILIAR</label><br>
+              <label style="font-weight: bold;">Tipo:</label><label > UNICA</label><br>
+              <label style="font-weight: bold;">Material Via:</label><label > 1</label><br>
+            </div>
+            <div class="col">
+              <label style="font-weight: bold;">Area: </label><label > URBANO</label><br>
+              <label style="font-weight: bold;">Inclinacion:</label><label > PLANO</label><br>
+              <label style="font-weight: bold;">Servicios:</label><label > AGUA-ALCANTARILLADO-LUZ</label><br>
+            </div>
+
+            <div class="col">
+              
+            </div>
+          </div>       
+      </div>
+        
+    </div>
+</div>

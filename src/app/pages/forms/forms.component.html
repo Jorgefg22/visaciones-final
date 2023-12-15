@@ -9,9 +9,11 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="form-group">
-                        <!-- <label for="name">Name</label> --> <input class="form-control" type="text"
-                            placeholder="INGRESE EL CODIGO">
+                        <form action="">
+                            <input class="form-control" type="text" placeholder="INGRESE EL CODIGO" id="DAdmicion" name="DAdmicion" #DAdmicion >
                             <br>
+                        </form>
+                        
                     </div>
                 </div>
             </div>
@@ -20,8 +22,8 @@
             
                   <div style="text-align: center;">
                     <div class="d-grid gap-2 d-md-block" >
-                        <button class="btn btn-primary btn1" type="button" >Cancelar</button>
-                        <button class="btn btn-primary btn2" type="button" >Verificar</button>
+                        <!--button class="btn btn-primary btn1" type="button" >Cancelar</button-->
+                        <button (click)="clickme(DAdmicion.value)" class="btn btn-primary btn2" type="submit" >Verificar</button>
                       </div>
                   </div>  
             

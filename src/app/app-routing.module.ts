@@ -6,6 +6,7 @@ import { FormviewComponent } from './pages/formview/formview.component';
 import { InmuebleComponent } from './vs/inmueble/inmueble.component';
 import { VendedorspComponent } from './vs/vendedorsp/vendedorsp.component';
 import { CompradorbComponent } from './vs/compradorb/compradorb.component';
+import { LoginComponent } from './auth/login/login.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path:'inmueble',component:InmuebleComponent},
   {path:'vendedor-sp',component:VendedorspComponent},
   {path:'comprador-b',component:CompradorbComponent},
+  {path:'login', component:LoginComponent}
 ];
 
 @NgModule({

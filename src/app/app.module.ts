@@ -13,6 +13,7 @@ import { VendedorspComponent } from './vs/vendedorsp/vendedorsp.component';
 import { CompradorbComponent } from './vs/compradorb/compradorb.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { LoginComponent } from './auth/login/login.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     InmuebleComponent,
     VendedorspComponent,
     CompradorbComponent,
+    LoginComponent,
   
   ],
   imports: [

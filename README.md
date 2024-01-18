@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # CatVisaciones
-=======
-# Visaciones
->>>>>>> cd1c198 (initial commit)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 

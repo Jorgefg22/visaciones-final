@@ -28,7 +28,7 @@ export class FormtwoComponent {
   codcat = false;
   ninm = false;
   Numero = '';
-  test = 'El valor se cambio';
+  test = 'El valor  cambio';
 
 
   //nombres       //apellidos       //documeno identificacion     // tipo de documento     //expedicion     // genero
@@ -47,7 +47,7 @@ export class FormtwoComponent {
   gettest(){
 
     return this.supterrcat;
-    
+
   }
 
   obtenerValor() {

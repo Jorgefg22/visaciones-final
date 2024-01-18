@@ -46,7 +46,8 @@ export class FormtwoComponent {
 
   gettest(){
 
-    return this.supterrcat
+    return this.supterrcat;
+    
   }
 
   obtenerValor() {

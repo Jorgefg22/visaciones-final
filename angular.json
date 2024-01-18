@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "cat-visaciones": {
+=======
+    "visaciones": {
+>>>>>>> cd1c198 (initial commit)
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/cat-visaciones",
+=======
+            "outputPath": "dist/visaciones",
+>>>>>>> cd1c198 (initial commit)
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +68,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "browserTarget": "cat-visaciones:build:production"
             },
             "development": {
               "browserTarget": "cat-visaciones:build:development"
+=======
+              "browserTarget": "visaciones:build:production"
+            },
+            "development": {
+              "browserTarget": "visaciones:build:development"
+>>>>>>> cd1c198 (initial commit)
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +86,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "cat-visaciones:build"
+=======
+            "browserTarget": "visaciones:build"
+>>>>>>> cd1c198 (initial commit)
           }
         },
         "test": {
